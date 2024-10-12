@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * Gitee  https://gitee.com/hooray/fantastic-admin
+ * Github https://github.com/hooray/fantastic-admin
+ */
+  
+import{a}from"../config/config.e980ec46.js";import{d as e,u as s,G as i,x as t,j as r,o,c as l,b as n,f as c,g as d,h as p,P as m,p as u,k as g,_ as f}from"../main-5b9099dc.js";const y={style:{"margin-top":"16px"}},x=(a=>(u("data-v-1ea814b3"),a=a(),g(),a))((()=>n("div",{style:{color:"#20295A","font-size":"15px","margin-top":"24px","margin-bottom":"12px"}}," 免责声明内容 ",-1))),b={style:{"margin-top":"50px"}},h=f(e({__name:"disclaimer",setup(e){const u=s(),g=i({disclaimer:""});async function f(){const e=await a.queryConfig({keys:["disclaimer"]}),{disclaimer:s}=e.data;Object.assign(g,{disclaimer:s})}async function h(){if(0==u.isUserModifyPermissions())return m.error("非超级管理员无权限操作！");if(""!=g.disclaimer){try{await a.setConfig({settings:(e=g,Object.keys(e).map((a=>({configKey:a,configVal:e[a]}))))}),m.success("变更配置信息成功")}catch(s){}var e;f()}else m.error("请填写用免责声明内容")}return t((()=>{f()})),(a,e)=>{const s=r("el-alert"),i=r("el-input"),t=r("el-button");return o(),l("div",null,[n("div",y,[c(s,{closable:!1,"show-icon":"",title:"免责审明设置说明",description:"这里的免责审明设置是对应用户端的免责审明链接、可以使用MD语法或直接使用Html标签进行发布、您也可以直接粘贴上传图片、作为图床使用、其他地方比如上传商品等地方的图片也可以暂时在此作为临时方案。",type:"warning"})]),n("div",null,[x,c(i,{style:{width:"100%",height:"50vh"},type:"textarea",modelValue:g.disclaimer,"onUpdate:modelValue":e[0]||(e[0]=a=>g.disclaimer=a),placeholder:"请输入免责声明内容",clearable:""},null,8,["modelValue"])]),n("div",b,[c(t,{bg:"",text:"",type:"primary",size:"large",style:{"font-size":"15px",background:"#EFF6FF",height:"42px",color:"#60A5FA","border-radius":"8px",padding:"8px 100px"},onClick:h},{default:d((()=>[p("保存设置 ")])),_:1})])])}}}),[["__scopeId","data-v-1ea814b3"]]);export{h as default};
