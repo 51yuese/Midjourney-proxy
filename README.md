@@ -1,4 +1,5 @@
-# Midjourney 中文站
+<<<<<<< HEAD
+# MJ专业绘画中文版-Midjourney AI超强绘画 原生态系统 完美还原官方操作
 
 **中文** 
 
@@ -7,6 +8,19 @@
 🦄 对接Midjourney-proxy接口！
 
 ⭐ 如果觉得项目不错，请一定帮忙点个 `Star`，万分感谢！
+
+## 演示站
+
+- 演示地址：**https://midjourney.bxmj.top**
+- 帐号: **mj-LBdAYTc6XE**    密码：**123456**
+
+## 系统授权
+
+- Q Q咨询：**124628086**
+- 微信咨询: **lzgzs168**
+---
+ <div> 
+ <img src="https://gitee.com/ignition-network/gomaxai/raw/master/images/wechat.png" alt="icon"/ height="200" width="200">
 
 ## 主要功能
 - [x] 支持 Imagine 指令和相关动作 [V1/V2.../U1/U2.../R]
@@ -72,6 +86,22 @@
 - [x] 支持自动切换到慢速模式、支持自动切快速模式、支持自动设置慢速
 - [x] 私信 ID 免配置，服务启动时自动获取私信 ID
 
-## 在线预览
-
 ## 预览截图
+
+> 截图非实时更新，实际请以演示站及最新版本的为准
+
+<h1 align="center">登录界面</h1>
+ <img src="https://gitee.com/ignition-network/midjourney-pro/raw/master/images/1.png" alt="icon"/>
+<h1 align="center">主界面</h1>
+ <img src="https://gitee.com/ignition-network/midjourney-pro/raw/master/images/2.png" alt="icon"/>
+<h1 align="center">绘画首页</h1>
+ <img src="https://gitee.com/ignition-network/midjourney-pro/raw/master/images/3.png" alt="icon"/>
+<h1 align="center">出图界面</h1>
+ <img src="https://gitee.com/ignition-network/midjourney-pro/raw/master/images/4.png" alt="icon"/>
+<h1 align="center">操作命令</h1>
+ <img src="https://gitee.com/ignition-network/midjourney-pro/raw/master/images/5.png" alt="icon"/>
+<h1 align="center">参考图</h1>
+ <img src="https://gitee.com/ignition-network/midjourney-pro/raw/master/images/6.png" alt="icon"/>
+<h1 align="center">局部重绘</h1>
+ <img src="https://gitee.com/ignition-network/midjourney-pro/raw/master/images/7.jpg" alt="icon"/>
+> 更多界面请查看演示站
